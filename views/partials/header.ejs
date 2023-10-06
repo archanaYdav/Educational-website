@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awaesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Header starts here -->
+    <header>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><i class="fas fa-user-graduate"></i> LOGO</a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="/#home">Home</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#course">Course</a></li>
+                <li><a href="/#teacher">Teacher</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="login" class="fas fa-user-circle"></div>
+    </header>
+
+    <!-- Login form starts here -->
+    <div class="login-form">
+
+        <form action="/login" method="post">
+            <h3>Login</h3>
+            <input type="email" placeholder="username" class="box" name="username">
+            <input type="password" placeholder="password" class="box" name="password">
+            <p>forget password? <a href="#">Click here</a></p>
+            <p>don't have an account? <a href="/register">register now</a></p>
+            <input type="submit" class="btn" value="login">
+            <i class="fas fa-times"></i>
+        </form>
+    </div>
+    <!-- Login form ends here -->
+
+    <!-- Header Ends here -->

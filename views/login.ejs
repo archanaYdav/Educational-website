@@ -1,0 +1,15 @@
+<%- include("partials/header.ejs") %>
+
+<div class="login-form register-form">
+
+    <form action="/login"  method="post">
+        <h3>Login</h3>
+        <input type="email" placeholder="username" class="box" name="username">
+        <input type="password" placeholder="password" class="box" name="password">
+        <p>forget password? <a href="#">Click here</a></p>
+        <p>don't have an account? <a href="/register">register now</a></p>
+        <input type="submit" class="btn" value="login">
+        <a href="/#home"><i class="fas fa-times"></i></a>
+    </form>
+</div>
+
